@@ -12,7 +12,6 @@ LangChain-GenAI is an integration package connecting Google's Generative AI pack
 1. Clone the repository:
     ```sh
     git clone https://github.com/your-repo/langchain-genai.git
-    cd langchain-genai
     ```
 
 2. Build the Docker image:
@@ -26,6 +25,7 @@ To run the project using Docker, execute the following command:
 
 ```sh
 docker run --name langchain-dev -d -v ${PWD}:/app langchain tail -f /dev/null
+```
 
 ## Project Structure
 .env
