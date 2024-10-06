@@ -28,6 +28,7 @@ docker run --name langchain-dev -d -v ${PWD}:/app langchain tail -f /dev/null
 ```
 
 ## Project Structure
+```
 .env
 file:///app/compose.yml
 dockerfile
@@ -39,7 +40,7 @@ file:///app/pyproject.toml
 file:///app/README.md
 tests/
     __init__.py
-
+```
 
 
 
